@@ -8,7 +8,10 @@
 
 import Foundation
 
+struct topLevelObject: Decodable {
+    let allDictionary: [String : Fact]
+}
 
-
-
-
+struct Fact: Decodable {
+    let text: String
+}
