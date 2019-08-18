@@ -12,6 +12,8 @@
 		6398504B23079D340015A46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6398504A23079D340015A46B /* Assets.xcassets */; };
 		6398504E23079D340015A46B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6398504C23079D340015A46B /* LaunchScreen.storyboard */; };
 		6398505B23079E710015A46B /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398505A23079E710015A46B /* Fact.swift */; };
+		6398505F2307A2B20015A46B /* FactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398505E2307A2B20015A46B /* FactController.swift */; };
+		639850612307AA060015A46B /* FactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639850602307AA060015A46B /* FactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6398504D23079D340015A46B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6398504F23079D340015A46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6398505A23079E710015A46B /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		6398505E2307A2B20015A46B /* FactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactController.swift; sourceTree = "<group>"; };
+		639850602307AA060015A46B /* FactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		6398505723079D6E0015A46B /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				6398505E2307A2B20015A46B /* FactController.swift */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 		6398505923079D9A0015A46B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				639850602307AA060015A46B /* FactTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6398505F2307A2B20015A46B /* FactController.swift in Sources */,
+				639850612307AA060015A46B /* FactTableViewController.swift in Sources */,
 				6398504423079D330015A46B /* AppDelegate.swift in Sources */,
 				6398505B23079E710015A46B /* Fact.swift in Sources */,
 			);

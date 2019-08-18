@@ -1,5 +1,5 @@
 //
-//  Fact.swift
+//  FactController.swift
 //  CatFacts
 //
 //  Created by Blake kvarfordt on 8/16/19.
@@ -7,8 +7,5 @@
 //
 
 import Foundation
-
-
-
 
 
